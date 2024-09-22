@@ -1,0 +1,114 @@
+.home {
+  margin-top: 5px;
+  width: $content-width;
+  margin: 0 auto;
+
+  .boxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 115px;
+
+    .box1 {
+      height: 304px;
+      width: 236px;
+      // background-color: red;
+      background-image: url(../images/Marry-Me-Chicken-6.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .dinner {
+        height: 34px;
+        width: 111px;
+        background-color: $site-orange;
+        position: relative;
+        top: 285px;
+        left: 55px;
+
+        p {
+          color: $site-white;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          padding-top: 10px;
+        }
+      }
+    }
+    .box2 {
+      height: 304px;
+      width: 236px;
+      // background-color: red;
+      background-image: url(../images/cropped-Tempeh-Bowls-6.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .bowls {
+        height: 34px;
+        width: 111px;
+        background-color: $site-orange;
+        position: relative;
+        top: 285px;
+        left: 55px;
+
+        p {
+          color: $site-white;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          padding-top: 10px;
+        }
+      }
+    }
+    .box3 {
+      height: 304px;
+      width: 236px;
+      // background-color: red;
+      background-image: url(../images/Spicy-Short-Rib-Noodle-Soup-3.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .fall {
+        height: 34px;
+        width: 111px;
+        background-color: $site-orange;
+        position: relative;
+        top: 285px;
+        left: 55px;
+
+        p {
+          color: $site-white;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          padding-top: 10px;
+        }
+      }
+    }
+    .box4 {
+      height: 304px;
+      width: 236px;
+      // background-color: red;
+      background-image: url(../images/butter-chicken-3-scaled.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      .sos {
+        height: 34px;
+        width: 111px;
+        background-color: $site-orange;
+        position: relative;
+        top: 285px;
+        left: 55px;
+
+        p {
+          color: $site-white;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          padding-top: 10px;
+        }
+      }
+    }
+  }
+}

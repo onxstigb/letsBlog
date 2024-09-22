@@ -1,0 +1,13 @@
+footer {
+  background-color: $site-dark-green;
+  height: 100px;
+  margin-top: 25px;
+
+  .socials {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+  }
+}

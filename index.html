@@ -4,19 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LetsBlog</title>
+    <title>Let's Eat | Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
+    <div class="top-bar">
+      <div class="join">
+        <span class="join-us"
+          >OUR RECIPES,
+          <span class="inbox"> YOUR INBOX.</span>
+          <span class="sign-up">SIGN UP!</span></span
+        >
+      </div>
+    </div>
     <nav>
-      <a href="#" id="home">home</a>
-      <a href="#" id="about">about</a>
-      <a href="#" id="blog">blog</a>
-      <a href="#" id="contact">contact</a>
+      <div class="logo"><p>Let's Eat</p></div>
+      <ul>
+        <div class="links">
+          <li><a id="home" href="#">home</a></li>
+          <li><a id="about" href="#">about</a></li>
+          <li><a id="recipes" href="#">recipes</a></li>
+          <li><a id="contact" href="#">contact</a></li>
+        </div>
+      </ul>
     </nav>
-    <div id="app"></div>
+    <div class="under-nav"><p>Simple Recipes for Everyday Life</p></div>
+    <div id="app">
+      <div class="about"></div>
+
+      </div>    
+      <footer>
+      <div class="socials">
+        <i class="fa-brands fa-instagram fa-2xl"></i>
+        <i class="fa-brands fa-tiktok fa-2xl"></i>
+        <i class="fa-brands fa-twitter fa-2xl"></i>
+    </footer>
     <script src="lib/jquery-3.7.1.min.js"></script>
     <script type="module" src="model/model.js"></script>
-    <script src="app/app.js"></script>
+    <script type="module" src="app/app.js"></script>
   </body>
 </html>

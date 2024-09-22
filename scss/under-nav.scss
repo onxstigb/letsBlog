@@ -1,0 +1,13 @@
+.under-nav {
+  height: 91px;
+  width: $content-width;
+  //   background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  p {
+    margin-top: 20px;
+    font-size: 50px;
+  }
+}

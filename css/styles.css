@@ -9,7 +9,12 @@ body {
   height: 100%;
 }
 
-h1,
+h1 .roboto-regular {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 h2,
 h3,
 h4,
@@ -18,18 +23,215 @@ h6,
 p {
   margin-bottom: 16px;
 }
+h2 .roboto-regular,
+h3 .roboto-regular,
+h4 .roboto-regular,
+h5 .roboto-regular,
+h6 .roboto-regular,
+p .roboto-regular {
+  font-family: "Roboto", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.top-bar {
+  height: 44px;
+  background-color: #c08b57;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.top-bar .join {
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-bar .join .join-us {
+  font-size: 1.2em;
+  color: rgb(38, 51, 59);
+}
 
 nav {
-  height: 50px;
-  background-color: #000;
+  height: 65px;
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(38, 51, 59);
+  position: relative;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav .logo p {
+  font-size: 20px;
+  position: absolute;
+  top: 35px;
+  color: rgb(38, 51, 59);
+}
+nav ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul a {
+  text-decoration: none;
+  color: #5e7d78;
+}
+nav .links {
+  min-width: 300px;
+  height: 42px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  position: absolute;
+  left: 685px;
+}
+nav .links a {
+  padding-right: 15px;
+  border-right: 2px solid #c08b57;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-nav a {
-  text-decoration: none;
-  color: #fff;
+.under-nav {
+  height: 91px;
+  width: 980px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.under-nav p {
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.home {
+  margin-top: 5px;
+  width: 980px;
+  margin: 0 auto;
+}
+.home .boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 115px;
+}
+.home .boxes .box1 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Marry-Me-Chicken-6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .boxes .box1 .dinner {
+  height: 34px;
+  width: 111px;
+  background-color: #c08b57;
+  position: relative;
+  top: 285px;
+  left: 55px;
+}
+.home .boxes .box1 .dinner p {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.home .boxes .box2 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/cropped-Tempeh-Bowls-6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .boxes .box2 .bowls {
+  height: 34px;
+  width: 111px;
+  background-color: #c08b57;
+  position: relative;
+  top: 285px;
+  left: 55px;
+}
+.home .boxes .box2 .bowls p {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.home .boxes .box3 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/Spicy-Short-Rib-Noodle-Soup-3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .boxes .box3 .fall {
+  height: 34px;
+  width: 111px;
+  background-color: #c08b57;
+  position: relative;
+  top: 285px;
+  left: 55px;
+}
+.home .boxes .box3 .fall p {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+.home .boxes .box4 {
+  height: 304px;
+  width: 236px;
+  background-image: url(../images/butter-chicken-3-scaled.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .boxes .box4 .sos {
+  height: 34px;
+  width: 111px;
+  background-color: #c08b57;
+  position: relative;
+  top: 285px;
+  left: 55px;
+}
+.home .boxes .box4 .sos p {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+}
+
+footer {
+  background-color: rgb(38, 51, 59);
+  height: 100px;
+  margin-top: 25px;
+}
+footer .socials {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 50px;
 }
 
 /*# sourceMappingURL=styles.css.map */
