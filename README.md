@@ -8,8 +8,10 @@ Home Page Complete
 
 About Page Complete
 
-Recipe Page In Progress
+Recipe Page Complete
 
-Contact Page In Progress
+Contact Page Complete
+
+Site Compeleted
 
 Web4 Link:

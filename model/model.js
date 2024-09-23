@@ -63,6 +63,26 @@ const recipesPage = `       <div class="recipes">
             </div>
         </div>`;
 
+const contactPage = `<div class="contact">
+  <h1>Contact Us!</h1>
+  <h1>I'd love to hear from you!</h1>
+      <div class="contact-form">
+      <div class="your-name">
+       <label for="name"></label>
+        <input type="text" placeholder="Your name..." />
+    </div>
+    <div class="email-address">
+  <label for="email"></label>
+   <input type="text" placeholder="Email Address..." />
+    </div>
+  <div class="message">
+   <label for="name"></label>
+  <input type="text" placeholder="Message..." />
+          </div>
+          <button>SEND MESSAGE</button>       
+         </div>
+        </div>`;
+
 export function changePage(pageName) {
   let pageVarName = pageName + "Page";
   console.log(pageVarName);
