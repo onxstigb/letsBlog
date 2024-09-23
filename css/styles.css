@@ -276,6 +276,47 @@ nav .links a {
   margin-left: 20px;
 }
 
+.recipes {
+  width: 980px;
+  margin: 0 auto;
+}
+.recipes h1 {
+  margin: 0 auto;
+  color: #5e7d78;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.recipes .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.recipes .recipe-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+.recipes .recipe-card:hover {
+  transform: scale(1.05);
+}
+.recipes .recipe-card img {
+  width: 400px;
+  height: 400px;
+}
+.recipes .recipe-card h2 {
+  margin: 10px 15px;
+  font-size: 1.5em;
+}
+.recipes .recipe-card p {
+  margin: 0 15px 15px;
+  color: #995b36;
+}
+
 footer {
   background-color: rgb(38, 51, 59);
   height: 100px;

@@ -38,6 +38,31 @@ const aboutPage = `       <div class="about">
         </div>
       </div>`;
 
+const recipesPage = `       <div class="recipes">
+        <h1>Recipe Collection</h1>
+         <div class="grid-container"></div>
+            <div class="recipe-card">
+                <img src="images/recipe1.jpg" alt="Recipe 1">
+                <h2>Chicken Tinga Tacos</h2>
+                <p>Short description of the recipe.</p>
+            </div>
+            <div class="recipe-card">
+                <img src="images/recipe2.jpg" alt="Recipe 2">
+                <h2>Detox Crockpot Lentil Soup</h2>
+                <p>Short description of the recipe.</p>
+            </div>
+            <div class="recipe-card">
+                <img src="images/recipe3.jpg" alt="Recipe 3">
+                <h2>Sunday Chili</h2>
+                <p>Short description of the recipe.</p>
+            </div>
+            <div class="recipe-card">
+                <img src="images/recipe4.jpg" alt="Recipe 4">
+                <h2>Baked Chicken Meatballs</h2>
+                <p>Short description of the recipe.</p>
+            </div>
+        </div>`;
+
 export function changePage(pageName) {
   let pageVarName = pageName + "Page";
   console.log(pageVarName);
